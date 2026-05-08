@@ -1,0 +1,11 @@
+[project]
+name = "enem-data-cleaning-lab"
+version = "0.1.0"
+description = "Educational lab for cleaning ENEM-like tabular data with pandas and safe sample files."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alberto Mateus P. da Gama" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
